@@ -7,7 +7,7 @@ const authStore = useAuthStore();
 
 </script>
 
-<template>
+<template>  
   <header>
     <router-link :to="{ name: 'home' }">Home</router-link> |
     <router-link to="/categorias">Categorias</router-link> |
@@ -24,3 +24,6 @@ const authStore = useAuthStore();
     <RouterView />
   </main>
 </template>
+<style scoped>
+
+</style>
